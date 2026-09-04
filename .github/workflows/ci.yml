@@ -170,3 +170,5 @@ jobs:
           docker push \
             ${{ vars.ACR_LOGIN_SERVER }}/${{ matrix.image }}:latest
 
+
+# Trigger CI pipeline for Task 7.1P
